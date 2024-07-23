@@ -37,6 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
+
+
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -4711,6 +4715,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 		transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 	}
+
 
 		.spotlight.onscroll-image-fade-up .image img {
 			-moz-transition: opacity 0.75s ease-in-out;
