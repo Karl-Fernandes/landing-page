@@ -37,8 +37,54 @@ ol, ul {
 	list-style: none;
 }
 
+/* Navbar */
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem; /* Further reduced padding */
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    color: var(--primary-color);
+    font-size: 1rem; /* Reduced font size */
+    margin: 0; /* Remove default margin */
+}
+
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+    font-size: 0.875rem; /* Reduced font size */
+    margin: 0; /* Remove default margin */
+    padding: 0.5rem; /* Reduced padding */
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem; /* Reduced gap */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
+    margin: 0; /* Remove default margin */
+    list-style: none; /* Remove bullets */
+}
 
 
+/* Navbar ends */
 
 
 blockquote, q {
@@ -118,6 +164,8 @@ input, select, textarea {
 		}
 
 /* Type */
+
+
 
 	html {
 		font-size: 18pt;
